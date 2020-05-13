@@ -1,0 +1,5 @@
+
+struct structB {
+	int member;
+};
+
