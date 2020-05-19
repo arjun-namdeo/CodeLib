@@ -1,0 +1,10 @@
+CusTransectionNum,CusMoneyBalance,CusTransectionAmount,CusTransectionType,CusTransectionDate,Comment
+1,45000,45000,Deposit,11 Nov 2013 at 01:43 AM,
+1,63000,8000,Deposite,12 Nov 2013 at 01:07 AM,
+3,63123,123,Deposit,12 Nov 2013 at 10:11 AM,
+4,62623,500,Withdrawl,12 Nov 2013 at 10:42 AM,
+5,62000,623,Withdrawl,12 Nov 2013 at 10:43 AM,
+6,61000,1000,Withdrawl,12 Nov 2013 at 10:52 AM,Cook
+7,67500,6500,Deposit,12 Nov 2013 at 10:56 AM,Tax_return
+8,87500,20000,Deposit,13 Nov 2013 at 10:08 AM,EMI
+9,87600,100,Deposit,22 June 2014 at 13:51 PM,asd

@@ -1,0 +1,2970 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>SMIP_MainWindow</class>
+ <widget class="QMainWindow" name="SMIP_MainWindow">
+  <property name="windowModality">
+   <enum>Qt::ApplicationModal</enum>
+  </property>
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1368</width>
+    <height>768</height>
+   </rect>
+  </property>
+  <property name="minimumSize">
+   <size>
+    <width>1368</width>
+    <height>768</height>
+   </size>
+  </property>
+  <property name="font">
+   <font>
+    <family>Calibri</family>
+    <pointsize>9</pointsize>
+   </font>
+  </property>
+  <property name="windowTitle">
+   <string>Shri Maruti Industrial Bank</string>
+  </property>
+  <property name="windowIcon">
+   <iconset>
+    <normaloff>T:/Icon/Hex Icons Set/foursquare.png</normaloff>T:/Icon/Hex Icons Set/foursquare.png</iconset>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <layout class="QGridLayout" name="gridLayout_2">
+    <item row="0" column="0">
+     <widget class="QLabel" name="label">
+      <property name="font">
+       <font>
+        <family>Nyala</family>
+        <pointsize>19</pointsize>
+       </font>
+      </property>
+      <property name="text">
+       <string>Welcome to Horizon Financial Bank</string>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignCenter</set>
+      </property>
+     </widget>
+    </item>
+    <item row="1" column="0">
+     <widget class="QTabWidget" name="tabWidget">
+      <property name="styleSheet">
+       <string notr="true"/>
+      </property>
+      <property name="tabShape">
+       <enum>QTabWidget::Rounded</enum>
+      </property>
+      <property name="currentIndex">
+       <number>1</number>
+      </property>
+      <property name="elideMode">
+       <enum>Qt::ElideLeft</enum>
+      </property>
+      <property name="movable">
+       <bool>true</bool>
+      </property>
+      <widget class="QWidget" name="tab_9">
+       <attribute name="title">
+        <string>Home</string>
+       </attribute>
+       <layout class="QGridLayout" name="gridLayout_4">
+        <item row="0" column="0">
+         <widget class="QLabel" name="label_49">
+          <property name="maximumSize">
+           <size>
+            <width>1100</width>
+            <height>16777215</height>
+           </size>
+          </property>
+          <property name="text">
+           <string/>
+          </property>
+          <property name="pixmap">
+           <pixmap>icons/To-Win-The-Game-inspirational-Quotes-Wallpaper-HD-For-Desktop.jpg</pixmap>
+          </property>
+          <property name="scaledContents">
+           <bool>true</bool>
+          </property>
+         </widget>
+        </item>
+       </layout>
+      </widget>
+      <widget class="QWidget" name="Tab_CreateAccount">
+       <attribute name="title">
+        <string>Create New Account</string>
+       </attribute>
+       <attribute name="toolTip">
+        <string>Create New Account</string>
+       </attribute>
+       <attribute name="whatsThis">
+        <string>Create New Account</string>
+       </attribute>
+       <layout class="QGridLayout" name="gridLayout">
+        <item row="0" column="0">
+         <widget class="QGroupBox" name="groupBox">
+          <property name="title">
+           <string> Register a New Account  </string>
+          </property>
+          <widget class="QPushButton" name="Bank_NewAcc_SubmitButton">
+           <property name="geometry">
+            <rect>
+             <x>210</x>
+             <y>450</y>
+             <width>441</width>
+             <height>31</height>
+            </rect>
+           </property>
+           <property name="text">
+            <string>   Create New Account</string>
+           </property>
+           <property name="icon">
+            <iconset>
+             <normaloff>icons/Add.ico</normaloff>icons/Add.ico</iconset>
+           </property>
+          </widget>
+          <widget class="QGroupBox" name="Bank_NewAccDone_Group">
+           <property name="geometry">
+            <rect>
+             <x>730</x>
+             <y>41</y>
+             <width>0</width>
+             <height>0</height>
+            </rect>
+           </property>
+           <property name="title">
+            <string> Account Information</string>
+           </property>
+           <widget class="Line" name="line">
+            <property name="geometry">
+             <rect>
+              <x>40</x>
+              <y>100</y>
+              <width>421</width>
+              <height>16</height>
+             </rect>
+            </property>
+            <property name="orientation">
+             <enum>Qt::Horizontal</enum>
+            </property>
+           </widget>
+           <widget class="QLabel" name="Bank_NewAccCongoImage">
+            <property name="geometry">
+             <rect>
+              <x>30</x>
+              <y>20</y>
+              <width>81</width>
+              <height>71</height>
+             </rect>
+            </property>
+            <property name="text">
+             <string/>
+            </property>
+            <property name="scaledContents">
+             <bool>true</bool>
+            </property>
+           </widget>
+           <widget class="QLabel" name="Bank_NewAccCongoText">
+            <property name="geometry">
+             <rect>
+              <x>115</x>
+              <y>15</y>
+              <width>191</width>
+              <height>51</height>
+             </rect>
+            </property>
+            <property name="font">
+             <font>
+              <family>Century Gothic</family>
+              <pointsize>14</pointsize>
+             </font>
+            </property>
+            <property name="text">
+             <string/>
+            </property>
+            <property name="alignment">
+             <set>Qt::AlignCenter</set>
+            </property>
+           </widget>
+           <widget class="QLabel" name="Bank_NewAccCongoTextData">
+            <property name="geometry">
+             <rect>
+              <x>130</x>
+              <y>60</y>
+              <width>351</width>
+              <height>41</height>
+             </rect>
+            </property>
+            <property name="font">
+             <font>
+              <family>Century Gothic</family>
+              <pointsize>9</pointsize>
+             </font>
+            </property>
+            <property name="text">
+             <string/>
+            </property>
+            <property name="alignment">
+             <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+            </property>
+           </widget>
+           <widget class="QSplitter" name="splitter_10">
+            <property name="geometry">
+             <rect>
+              <x>50</x>
+              <y>220</y>
+              <width>381</width>
+              <height>21</height>
+             </rect>
+            </property>
+            <property name="orientation">
+             <enum>Qt::Horizontal</enum>
+            </property>
+            <widget class="QLabel" name="label_12">
+             <property name="text">
+              <string>Customer ID</string>
+             </property>
+            </widget>
+            <widget class="QLineEdit" name="Bank_NewAcc_CusID">
+             <property name="enabled">
+              <bool>true</bool>
+             </property>
+             <property name="minimumSize">
+              <size>
+               <width>265</width>
+               <height>0</height>
+              </size>
+             </property>
+             <property name="maximumSize">
+              <size>
+               <width>265</width>
+               <height>16777215</height>
+              </size>
+             </property>
+             <property name="font">
+              <font>
+               <family>Consolas</family>
+               <pointsize>10</pointsize>
+               <italic>false</italic>
+               <strikeout>false</strikeout>
+              </font>
+             </property>
+             <property name="cursor">
+              <cursorShape>ArrowCursor</cursorShape>
+             </property>
+             <property name="text">
+              <string/>
+             </property>
+             <property name="alignment">
+              <set>Qt::AlignCenter</set>
+             </property>
+             <property name="readOnly">
+              <bool>true</bool>
+             </property>
+             <property name="placeholderText">
+              <string>Your Customer ID Number</string>
+             </property>
+             <property name="cursorMoveStyle">
+              <enum>Qt::LogicalMoveStyle</enum>
+             </property>
+            </widget>
+           </widget>
+           <widget class="QSplitter" name="splitter_9">
+            <property name="geometry">
+             <rect>
+              <x>50</x>
+              <y>130</y>
+              <width>381</width>
+              <height>21</height>
+             </rect>
+            </property>
+            <property name="orientation">
+             <enum>Qt::Horizontal</enum>
+            </property>
+            <widget class="QLabel" name="label_51">
+             <property name="text">
+              <string>Name</string>
+             </property>
+            </widget>
+            <widget class="QLineEdit" name="Bank_NewAcc_CusAccName">
+             <property name="enabled">
+              <bool>true</bool>
+             </property>
+             <property name="maximumSize">
+              <size>
+               <width>265</width>
+               <height>16777215</height>
+              </size>
+             </property>
+             <property name="font">
+              <font>
+               <family>Consolas</family>
+               <pointsize>10</pointsize>
+               <italic>false</italic>
+               <strikeout>false</strikeout>
+              </font>
+             </property>
+             <property name="cursor">
+              <cursorShape>ArrowCursor</cursorShape>
+             </property>
+             <property name="text">
+              <string/>
+             </property>
+             <property name="alignment">
+              <set>Qt::AlignCenter</set>
+             </property>
+             <property name="readOnly">
+              <bool>true</bool>
+             </property>
+             <property name="placeholderText">
+              <string>Name</string>
+             </property>
+             <property name="cursorMoveStyle">
+              <enum>Qt::LogicalMoveStyle</enum>
+             </property>
+            </widget>
+           </widget>
+           <widget class="QSplitter" name="splitter_11">
+            <property name="geometry">
+             <rect>
+              <x>50</x>
+              <y>250</y>
+              <width>381</width>
+              <height>21</height>
+             </rect>
+            </property>
+            <property name="orientation">
+             <enum>Qt::Horizontal</enum>
+            </property>
+            <widget class="QLabel" name="label_52">
+             <property name="text">
+              <string>Current Balance</string>
+             </property>
+            </widget>
+            <widget class="QLineEdit" name="Bank_NewAcc_CusAccBalance">
+             <property name="enabled">
+              <bool>true</bool>
+             </property>
+             <property name="minimumSize">
+              <size>
+               <width>265</width>
+               <height>0</height>
+              </size>
+             </property>
+             <property name="font">
+              <font>
+               <family>Consolas</family>
+               <pointsize>10</pointsize>
+               <italic>false</italic>
+               <strikeout>false</strikeout>
+              </font>
+             </property>
+             <property name="cursor">
+              <cursorShape>ArrowCursor</cursorShape>
+             </property>
+             <property name="text">
+              <string/>
+             </property>
+             <property name="alignment">
+              <set>Qt::AlignCenter</set>
+             </property>
+             <property name="readOnly">
+              <bool>true</bool>
+             </property>
+             <property name="placeholderText">
+              <string>Money in the Bank</string>
+             </property>
+             <property name="cursorMoveStyle">
+              <enum>Qt::LogicalMoveStyle</enum>
+             </property>
+            </widget>
+           </widget>
+           <widget class="QSplitter" name="splitter_12">
+            <property name="geometry">
+             <rect>
+              <x>50</x>
+              <y>160</y>
+              <width>381</width>
+              <height>21</height>
+             </rect>
+            </property>
+            <property name="orientation">
+             <enum>Qt::Horizontal</enum>
+            </property>
+            <widget class="QLabel" name="label_53">
+             <property name="text">
+              <string>Email</string>
+             </property>
+            </widget>
+            <widget class="QLineEdit" name="Bank_NewAcc_CusAccEmail">
+             <property name="enabled">
+              <bool>true</bool>
+             </property>
+             <property name="maximumSize">
+              <size>
+               <width>265</width>
+               <height>16777215</height>
+              </size>
+             </property>
+             <property name="font">
+              <font>
+               <family>Consolas</family>
+               <pointsize>10</pointsize>
+               <italic>false</italic>
+               <strikeout>false</strikeout>
+              </font>
+             </property>
+             <property name="cursor">
+              <cursorShape>ArrowCursor</cursorShape>
+             </property>
+             <property name="text">
+              <string/>
+             </property>
+             <property name="alignment">
+              <set>Qt::AlignCenter</set>
+             </property>
+             <property name="readOnly">
+              <bool>true</bool>
+             </property>
+             <property name="placeholderText">
+              <string>Your Email ID</string>
+             </property>
+             <property name="cursorMoveStyle">
+              <enum>Qt::LogicalMoveStyle</enum>
+             </property>
+            </widget>
+           </widget>
+           <widget class="QSplitter" name="splitter_13">
+            <property name="geometry">
+             <rect>
+              <x>50</x>
+              <y>190</y>
+              <width>381</width>
+              <height>21</height>
+             </rect>
+            </property>
+            <property name="orientation">
+             <enum>Qt::Horizontal</enum>
+            </property>
+            <widget class="QLabel" name="label_11">
+             <property name="text">
+              <string>Account No.</string>
+             </property>
+            </widget>
+            <widget class="QLineEdit" name="Bank_NewAcc_CusAccNum">
+             <property name="enabled">
+              <bool>true</bool>
+             </property>
+             <property name="minimumSize">
+              <size>
+               <width>265</width>
+               <height>0</height>
+              </size>
+             </property>
+             <property name="font">
+              <font>
+               <family>Consolas</family>
+               <pointsize>10</pointsize>
+               <italic>false</italic>
+               <strikeout>false</strikeout>
+              </font>
+             </property>
+             <property name="cursor">
+              <cursorShape>ArrowCursor</cursorShape>
+             </property>
+             <property name="text">
+              <string/>
+             </property>
+             <property name="alignment">
+              <set>Qt::AlignCenter</set>
+             </property>
+             <property name="readOnly">
+              <bool>true</bool>
+             </property>
+             <property name="placeholderText">
+              <string>Your Account Number</string>
+             </property>
+             <property name="cursorMoveStyle">
+              <enum>Qt::LogicalMoveStyle</enum>
+             </property>
+            </widget>
+           </widget>
+           <widget class="QPushButton" name="Bank_NewAcc_Done">
+            <property name="geometry">
+             <rect>
+              <x>50</x>
+              <y>300</y>
+              <width>381</width>
+              <height>23</height>
+             </rect>
+            </property>
+            <property name="text">
+             <string>  Okay</string>
+            </property>
+            <property name="icon">
+             <iconset>
+              <normaloff>icons/Select.ico</normaloff>icons/Select.ico</iconset>
+            </property>
+           </widget>
+          </widget>
+          <widget class="QGroupBox" name="groupBox_9">
+           <property name="geometry">
+            <rect>
+             <x>210</x>
+             <y>270</y>
+             <width>441</width>
+             <height>171</height>
+            </rect>
+           </property>
+           <property name="title">
+            <string>Security Details</string>
+           </property>
+           <widget class="QLabel" name="label_48">
+            <property name="geometry">
+             <rect>
+              <x>40</x>
+              <y>143</y>
+              <width>30</width>
+              <height>16</height>
+             </rect>
+            </property>
+            <property name="font">
+             <font>
+              <weight>75</weight>
+              <bold>true</bold>
+             </font>
+            </property>
+            <property name="text">
+             <string>A :</string>
+            </property>
+           </widget>
+           <widget class="QLabel" name="label_47">
+            <property name="geometry">
+             <rect>
+              <x>40</x>
+              <y>116</y>
+              <width>30</width>
+              <height>16</height>
+             </rect>
+            </property>
+            <property name="font">
+             <font>
+              <weight>75</weight>
+              <bold>true</bold>
+             </font>
+            </property>
+            <property name="text">
+             <string>Q :</string>
+            </property>
+           </widget>
+           <widget class="QLineEdit" name="Bank_NewAcc_SqA_B">
+            <property name="geometry">
+             <rect>
+              <x>70</x>
+              <y>140</y>
+              <width>351</width>
+              <height>20</height>
+             </rect>
+            </property>
+            <property name="maximumSize">
+             <size>
+              <width>16777215</width>
+              <height>16777215</height>
+             </size>
+            </property>
+            <property name="text">
+             <string/>
+            </property>
+            <property name="placeholderText">
+             <string> Enter Answer Here</string>
+            </property>
+           </widget>
+           <widget class="QLabel" name="label_4">
+            <property name="geometry">
+             <rect>
+              <x>10</x>
+              <y>20</y>
+              <width>381</width>
+              <height>16</height>
+             </rect>
+            </property>
+            <property name="text">
+             <string>Answer any Two Security Question Below, Remember the Answer..</string>
+            </property>
+           </widget>
+           <widget class="QLineEdit" name="Bank_NewAcc_SqA_A">
+            <property name="geometry">
+             <rect>
+              <x>70</x>
+              <y>80</y>
+              <width>350</width>
+              <height>20</height>
+             </rect>
+            </property>
+            <property name="maximumSize">
+             <size>
+              <width>16777215</width>
+              <height>16777215</height>
+             </size>
+            </property>
+            <property name="text">
+             <string/>
+            </property>
+            <property name="placeholderText">
+             <string> Enter Answer Here</string>
+            </property>
+           </widget>
+           <widget class="QLabel" name="label_45">
+            <property name="geometry">
+             <rect>
+              <x>40</x>
+              <y>56</y>
+              <width>30</width>
+              <height>16</height>
+             </rect>
+            </property>
+            <property name="font">
+             <font>
+              <weight>75</weight>
+              <bold>true</bold>
+             </font>
+            </property>
+            <property name="text">
+             <string>Q :</string>
+            </property>
+           </widget>
+           <widget class="QComboBox" name="Bank_NewAcc_SqQ_A">
+            <property name="geometry">
+             <rect>
+              <x>70</x>
+              <y>50</y>
+              <width>350</width>
+              <height>22</height>
+             </rect>
+            </property>
+            <item>
+             <property name="text">
+              <string> In Which Months Your Father's Birthday comes..??</string>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string> In Which Months Your Mother's Birthday comes..??</string>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string> What is your Lucky Number..??</string>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string> When you had First kiss with your lover .. ??</string>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string> Who was your Fav. Teacher in High School..??</string>
+             </property>
+            </item>
+           </widget>
+           <widget class="QLabel" name="label_46">
+            <property name="geometry">
+             <rect>
+              <x>40</x>
+              <y>83</y>
+              <width>30</width>
+              <height>16</height>
+             </rect>
+            </property>
+            <property name="font">
+             <font>
+              <weight>75</weight>
+              <bold>true</bold>
+             </font>
+            </property>
+            <property name="text">
+             <string>A :</string>
+            </property>
+           </widget>
+           <widget class="QComboBox" name="Bank_NewAcc_SqQ_B">
+            <property name="geometry">
+             <rect>
+              <x>70</x>
+              <y>111</y>
+              <width>350</width>
+              <height>22</height>
+             </rect>
+            </property>
+            <property name="currentIndex">
+             <number>1</number>
+            </property>
+            <item>
+             <property name="text">
+              <string> In Which Months Your Father's Birthday comes..??</string>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string> In Which Months Your Mother's Birthday comes..??</string>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string> What is your Lucky Number..??</string>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string> When you had First kiss with your lover .. ??</string>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string> Who was your Fav. Teacher in High School..??</string>
+             </property>
+            </item>
+           </widget>
+           <widget class="QPushButton" name="Bank_NewAcc_HelpSecQ">
+            <property name="geometry">
+             <rect>
+              <x>390</x>
+              <y>20</y>
+              <width>31</width>
+              <height>21</height>
+             </rect>
+            </property>
+            <property name="cursor">
+             <cursorShape>WhatsThisCursor</cursorShape>
+            </property>
+            <property name="toolTip">
+             <string>Why Security Question</string>
+            </property>
+            <property name="text">
+             <string/>
+            </property>
+            <property name="icon">
+             <iconset>
+              <normaloff>icons/gnome_dialog_question.ico</normaloff>icons/gnome_dialog_question.ico</iconset>
+            </property>
+            <property name="iconSize">
+             <size>
+              <width>24</width>
+              <height>24</height>
+             </size>
+            </property>
+           </widget>
+          </widget>
+          <widget class="QGroupBox" name="groupBox_10">
+           <property name="geometry">
+            <rect>
+             <x>210</x>
+             <y>40</y>
+             <width>441</width>
+             <height>221</height>
+            </rect>
+           </property>
+           <property name="title">
+            <string>Personal Information</string>
+           </property>
+           <widget class="QSplitter" name="splitter_8">
+            <property name="geometry">
+             <rect>
+              <x>19</x>
+              <y>182</y>
+              <width>401</width>
+              <height>22</height>
+             </rect>
+            </property>
+            <property name="orientation">
+             <enum>Qt::Horizontal</enum>
+            </property>
+            <widget class="QSplitter" name="splitter_5">
+             <property name="orientation">
+              <enum>Qt::Horizontal</enum>
+             </property>
+             <widget class="QLabel" name="label_44">
+              <property name="minimumSize">
+               <size>
+                <width>81</width>
+                <height>0</height>
+               </size>
+              </property>
+              <property name="text">
+               <string>Date of Birth</string>
+              </property>
+             </widget>
+             <widget class="QWidget" name="layoutWidget">
+              <layout class="QHBoxLayout" name="horizontalLayout_4">
+               <item>
+                <widget class="QComboBox" name="Bank_NewAcc_DOB_date">
+                 <property name="maximumSize">
+                  <size>
+                   <width>40</width>
+                   <height>16777215</height>
+                  </size>
+                 </property>
+                </widget>
+               </item>
+               <item>
+                <widget class="QComboBox" name="Bank_NewAcc_DOB_month">
+                 <property name="maximumSize">
+                  <size>
+                   <width>50</width>
+                   <height>16777215</height>
+                  </size>
+                 </property>
+                 <item>
+                  <property name="text">
+                   <string/>
+                  </property>
+                 </item>
+                 <item>
+                  <property name="text">
+                   <string>Jan</string>
+                  </property>
+                 </item>
+                 <item>
+                  <property name="text">
+                   <string>Feb</string>
+                  </property>
+                 </item>
+                 <item>
+                  <property name="text">
+                   <string>Mar</string>
+                  </property>
+                 </item>
+                 <item>
+                  <property name="text">
+                   <string>Apr</string>
+                  </property>
+                 </item>
+                 <item>
+                  <property name="text">
+                   <string>May</string>
+                  </property>
+                 </item>
+                 <item>
+                  <property name="text">
+                   <string>Jun</string>
+                  </property>
+                 </item>
+                 <item>
+                  <property name="text">
+                   <string>July</string>
+                  </property>
+                 </item>
+                 <item>
+                  <property name="text">
+                   <string>Aug</string>
+                  </property>
+                 </item>
+                 <item>
+                  <property name="text">
+                   <string>Sep</string>
+                  </property>
+                 </item>
+                 <item>
+                  <property name="text">
+                   <string>Oct</string>
+                  </property>
+                 </item>
+                 <item>
+                  <property name="text">
+                   <string>Nov</string>
+                  </property>
+                 </item>
+                 <item>
+                  <property name="text">
+                   <string>Dec</string>
+                  </property>
+                 </item>
+                </widget>
+               </item>
+               <item>
+                <widget class="QComboBox" name="Bank_NewAcc_DOB_year">
+                 <property name="maximumSize">
+                  <size>
+                   <width>50</width>
+                   <height>16777215</height>
+                  </size>
+                 </property>
+                 <item>
+                  <property name="text">
+                   <string>1990</string>
+                  </property>
+                 </item>
+                 <item>
+                  <property name="text">
+                   <string>1991</string>
+                  </property>
+                 </item>
+                 <item>
+                  <property name="text">
+                   <string>1992</string>
+                  </property>
+                 </item>
+                </widget>
+               </item>
+              </layout>
+             </widget>
+            </widget>
+            <widget class="QSplitter" name="splitter_6">
+             <property name="orientation">
+              <enum>Qt::Horizontal</enum>
+             </property>
+             <widget class="QLabel" name="label_5">
+              <property name="text">
+               <string>Sex</string>
+              </property>
+             </widget>
+             <widget class="QComboBox" name="Bank_NewAcc_Sex">
+              <property name="minimumSize">
+               <size>
+                <width>75</width>
+                <height>0</height>
+               </size>
+              </property>
+              <item>
+               <property name="text">
+                <string>Male</string>
+               </property>
+              </item>
+              <item>
+               <property name="text">
+                <string>Female</string>
+               </property>
+              </item>
+             </widget>
+            </widget>
+           </widget>
+           <widget class="QSplitter" name="splitter_2">
+            <property name="geometry">
+             <rect>
+              <x>21</x>
+              <y>19</y>
+              <width>401</width>
+              <height>20</height>
+             </rect>
+            </property>
+            <property name="orientation">
+             <enum>Qt::Horizontal</enum>
+            </property>
+            <widget class="QLabel" name="label_2">
+             <property name="text">
+              <string>Name</string>
+             </property>
+            </widget>
+            <widget class="QLineEdit" name="Bank_NewAcc_Name">
+             <property name="maximumSize">
+              <size>
+               <width>280</width>
+               <height>16777215</height>
+              </size>
+             </property>
+             <property name="placeholderText">
+              <string> Enter Full Name</string>
+             </property>
+            </widget>
+           </widget>
+           <widget class="QSplitter" name="splitter_4">
+            <property name="geometry">
+             <rect>
+              <x>20</x>
+              <y>114</y>
+              <width>401</width>
+              <height>20</height>
+             </rect>
+            </property>
+            <property name="orientation">
+             <enum>Qt::Horizontal</enum>
+            </property>
+            <widget class="QLabel" name="label_7">
+             <property name="text">
+              <string>ReEnter Password</string>
+             </property>
+            </widget>
+            <widget class="QLineEdit" name="Bank_NewAcc_RePassword">
+             <property name="minimumSize">
+              <size>
+               <width>280</width>
+               <height>0</height>
+              </size>
+             </property>
+             <property name="echoMode">
+              <enum>QLineEdit::Password</enum>
+             </property>
+             <property name="placeholderText">
+              <string> Please Remember it for further Transections</string>
+             </property>
+            </widget>
+           </widget>
+           <widget class="QSplitter" name="splitter_3">
+            <property name="geometry">
+             <rect>
+              <x>20</x>
+              <y>50</y>
+              <width>401</width>
+              <height>20</height>
+             </rect>
+            </property>
+            <property name="orientation">
+             <enum>Qt::Horizontal</enum>
+            </property>
+            <widget class="QLabel" name="label_3">
+             <property name="text">
+              <string>Opening Balance</string>
+             </property>
+            </widget>
+            <widget class="QLineEdit" name="Bank_NewAcc_Balance">
+             <property name="minimumSize">
+              <size>
+               <width>280</width>
+               <height>0</height>
+              </size>
+             </property>
+             <property name="placeholderText">
+              <string> Money Amount in Rupees</string>
+             </property>
+            </widget>
+           </widget>
+           <widget class="QSplitter" name="splitter_7">
+            <property name="geometry">
+             <rect>
+              <x>19</x>
+              <y>148</y>
+              <width>401</width>
+              <height>20</height>
+             </rect>
+            </property>
+            <property name="orientation">
+             <enum>Qt::Horizontal</enum>
+            </property>
+            <widget class="QLabel" name="label_30">
+             <property name="text">
+              <string>Email ID</string>
+             </property>
+            </widget>
+            <widget class="QLineEdit" name="Bank_NewAcc_Email">
+             <property name="minimumSize">
+              <size>
+               <width>280</width>
+               <height>0</height>
+              </size>
+             </property>
+             <property name="maximumSize">
+              <size>
+               <width>280</width>
+               <height>16777215</height>
+              </size>
+             </property>
+             <property name="placeholderText">
+              <string> customer.email@website.com</string>
+             </property>
+            </widget>
+           </widget>
+           <widget class="QSplitter" name="splitter">
+            <property name="geometry">
+             <rect>
+              <x>20</x>
+              <y>82</y>
+              <width>401</width>
+              <height>20</height>
+             </rect>
+            </property>
+            <property name="orientation">
+             <enum>Qt::Horizontal</enum>
+            </property>
+            <widget class="QLabel" name="label_6">
+             <property name="text">
+              <string>Enter Password</string>
+             </property>
+            </widget>
+            <widget class="QLineEdit" name="Bank_NewAcc_Password">
+             <property name="minimumSize">
+              <size>
+               <width>280</width>
+               <height>0</height>
+              </size>
+             </property>
+             <property name="echoMode">
+              <enum>QLineEdit::Password</enum>
+             </property>
+             <property name="placeholderText">
+              <string> Please Remember it for further Transections</string>
+             </property>
+            </widget>
+           </widget>
+          </widget>
+          <widget class="QLabel" name="label_50">
+           <property name="geometry">
+            <rect>
+             <x>20</x>
+             <y>30</y>
+             <width>181</width>
+             <height>171</height>
+            </rect>
+           </property>
+           <property name="text">
+            <string/>
+           </property>
+           <property name="pixmap">
+            <pixmap>icons/Ubuntu.ico</pixmap>
+           </property>
+           <property name="scaledContents">
+            <bool>true</bool>
+           </property>
+           <property name="alignment">
+            <set>Qt::AlignCenter</set>
+           </property>
+          </widget>
+         </widget>
+        </item>
+       </layout>
+      </widget>
+      <widget class="QWidget" name="tab_2">
+       <attribute name="title">
+        <string>Make Money Transection</string>
+       </attribute>
+       <widget class="QTabWidget" name="tabWidget_2">
+        <property name="geometry">
+         <rect>
+          <x>40</x>
+          <y>30</y>
+          <width>541</width>
+          <height>391</height>
+         </rect>
+        </property>
+        <property name="tabShape">
+         <enum>QTabWidget::Triangular</enum>
+        </property>
+        <property name="currentIndex">
+         <number>0</number>
+        </property>
+        <widget class="QWidget" name="tab_3">
+         <attribute name="title">
+          <string> Deposit Money </string>
+         </attribute>
+         <widget class="QGroupBox" name="groupBox_3">
+          <property name="geometry">
+           <rect>
+            <x>20</x>
+            <y>11</y>
+            <width>481</width>
+            <height>341</height>
+           </rect>
+          </property>
+          <property name="title">
+           <string> Deposit Money</string>
+          </property>
+          <widget class="QLabel" name="label_15">
+           <property name="geometry">
+            <rect>
+             <x>50</x>
+             <y>90</y>
+             <width>131</width>
+             <height>16</height>
+            </rect>
+           </property>
+           <property name="text">
+            <string>Enter Your Password</string>
+           </property>
+          </widget>
+          <widget class="QLineEdit" name="MoneyDeposit_AccName">
+           <property name="geometry">
+            <rect>
+             <x>200</x>
+             <y>57</y>
+             <width>211</width>
+             <height>20</height>
+            </rect>
+           </property>
+           <property name="frame">
+            <bool>true</bool>
+           </property>
+           <property name="readOnly">
+            <bool>true</bool>
+           </property>
+          </widget>
+          <widget class="QLineEdit" name="MoneyDeposit_AccAmount">
+           <property name="geometry">
+            <rect>
+             <x>200</x>
+             <y>117</y>
+             <width>211</width>
+             <height>20</height>
+            </rect>
+           </property>
+           <property name="text">
+            <string/>
+           </property>
+           <property name="frame">
+            <bool>true</bool>
+           </property>
+           <property name="echoMode">
+            <enum>QLineEdit::Normal</enum>
+           </property>
+           <property name="readOnly">
+            <bool>false</bool>
+           </property>
+          </widget>
+          <widget class="QLabel" name="label_16">
+           <property name="geometry">
+            <rect>
+             <x>50</x>
+             <y>120</y>
+             <width>141</width>
+             <height>16</height>
+            </rect>
+           </property>
+           <property name="text">
+            <string>Enter Amount (In Rupees)</string>
+           </property>
+          </widget>
+          <widget class="QComboBox" name="MoneyDeposit_AccNum">
+           <property name="geometry">
+            <rect>
+             <x>200</x>
+             <y>27</y>
+             <width>211</width>
+             <height>22</height>
+            </rect>
+           </property>
+          </widget>
+          <widget class="QLabel" name="label_13">
+           <property name="geometry">
+            <rect>
+             <x>50</x>
+             <y>33</y>
+             <width>131</width>
+             <height>16</height>
+            </rect>
+           </property>
+           <property name="text">
+            <string>Select Your Account No</string>
+           </property>
+          </widget>
+          <widget class="QLabel" name="label_14">
+           <property name="geometry">
+            <rect>
+             <x>50</x>
+             <y>60</y>
+             <width>131</width>
+             <height>16</height>
+            </rect>
+           </property>
+           <property name="text">
+            <string>Account Holder Name</string>
+           </property>
+          </widget>
+          <widget class="QLineEdit" name="MoneyDeposit_AccPassword">
+           <property name="geometry">
+            <rect>
+             <x>200</x>
+             <y>87</y>
+             <width>211</width>
+             <height>20</height>
+            </rect>
+           </property>
+           <property name="text">
+            <string/>
+           </property>
+           <property name="frame">
+            <bool>true</bool>
+           </property>
+           <property name="echoMode">
+            <enum>QLineEdit::Password</enum>
+           </property>
+           <property name="readOnly">
+            <bool>false</bool>
+           </property>
+          </widget>
+          <widget class="QPushButton" name="MoneyDeposit_DepositeButton">
+           <property name="geometry">
+            <rect>
+             <x>50</x>
+             <y>180</y>
+             <width>360</width>
+             <height>23</height>
+            </rect>
+           </property>
+           <property name="text">
+            <string>   Deposit Money</string>
+           </property>
+           <property name="icon">
+            <iconset>
+             <normaloff>T:/Icon/Icons Mega Pack 1/Lime Wire.ico</normaloff>T:/Icon/Icons Mega Pack 1/Lime Wire.ico</iconset>
+           </property>
+          </widget>
+          <widget class="QLabel" name="MoneyDeposit_ErrorLabel">
+           <property name="enabled">
+            <bool>false</bool>
+           </property>
+           <property name="geometry">
+            <rect>
+             <x>40</x>
+             <y>210</y>
+             <width>421</width>
+             <height>41</height>
+            </rect>
+           </property>
+           <property name="font">
+            <font>
+             <family>Courier New</family>
+             <pointsize>8</pointsize>
+            </font>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">color: rgb(255, 85, 0);</string>
+           </property>
+           <property name="text">
+            <string/>
+           </property>
+           <property name="alignment">
+            <set>Qt::AlignCenter</set>
+           </property>
+          </widget>
+          <widget class="QLabel" name="MoneyDeposit_CongoLabel">
+           <property name="geometry">
+            <rect>
+             <x>40</x>
+             <y>250</y>
+             <width>411</width>
+             <height>51</height>
+            </rect>
+           </property>
+           <property name="text">
+            <string/>
+           </property>
+          </widget>
+          <widget class="QLabel" name="label_35">
+           <property name="geometry">
+            <rect>
+             <x>50</x>
+             <y>153</y>
+             <width>131</width>
+             <height>16</height>
+            </rect>
+           </property>
+           <property name="text">
+            <string>Comment</string>
+           </property>
+          </widget>
+          <widget class="QLineEdit" name="MoneyDeposit_AccComment">
+           <property name="geometry">
+            <rect>
+             <x>200</x>
+             <y>150</y>
+             <width>211</width>
+             <height>20</height>
+            </rect>
+           </property>
+           <property name="text">
+            <string/>
+           </property>
+           <property name="frame">
+            <bool>true</bool>
+           </property>
+           <property name="echoMode">
+            <enum>QLineEdit::Normal</enum>
+           </property>
+           <property name="readOnly">
+            <bool>false</bool>
+           </property>
+          </widget>
+         </widget>
+        </widget>
+        <widget class="QWidget" name="tab_4">
+         <attribute name="title">
+          <string> Withdrawl Money </string>
+         </attribute>
+         <widget class="QGroupBox" name="groupBox_4">
+          <property name="geometry">
+           <rect>
+            <x>20</x>
+            <y>11</y>
+            <width>481</width>
+            <height>341</height>
+           </rect>
+          </property>
+          <property name="title">
+           <string> Withdrawl Money </string>
+          </property>
+          <widget class="QLabel" name="label_19">
+           <property name="geometry">
+            <rect>
+             <x>50</x>
+             <y>90</y>
+             <width>131</width>
+             <height>16</height>
+            </rect>
+           </property>
+           <property name="text">
+            <string>Enter Your Password</string>
+           </property>
+          </widget>
+          <widget class="QLineEdit" name="MoneyWithdrawl_AccName">
+           <property name="geometry">
+            <rect>
+             <x>200</x>
+             <y>57</y>
+             <width>211</width>
+             <height>20</height>
+            </rect>
+           </property>
+           <property name="frame">
+            <bool>true</bool>
+           </property>
+           <property name="readOnly">
+            <bool>true</bool>
+           </property>
+          </widget>
+          <widget class="QLineEdit" name="MoneyWithdrawl_AccAmount">
+           <property name="geometry">
+            <rect>
+             <x>200</x>
+             <y>117</y>
+             <width>211</width>
+             <height>20</height>
+            </rect>
+           </property>
+           <property name="text">
+            <string/>
+           </property>
+           <property name="frame">
+            <bool>true</bool>
+           </property>
+           <property name="echoMode">
+            <enum>QLineEdit::Normal</enum>
+           </property>
+           <property name="readOnly">
+            <bool>false</bool>
+           </property>
+          </widget>
+          <widget class="QLabel" name="label_20">
+           <property name="geometry">
+            <rect>
+             <x>50</x>
+             <y>120</y>
+             <width>141</width>
+             <height>16</height>
+            </rect>
+           </property>
+           <property name="text">
+            <string>Enter Amount (In Rupees)</string>
+           </property>
+          </widget>
+          <widget class="QComboBox" name="MoneyWithdrawl_AccNum">
+           <property name="geometry">
+            <rect>
+             <x>200</x>
+             <y>27</y>
+             <width>211</width>
+             <height>22</height>
+            </rect>
+           </property>
+          </widget>
+          <widget class="QLabel" name="label_21">
+           <property name="geometry">
+            <rect>
+             <x>50</x>
+             <y>33</y>
+             <width>131</width>
+             <height>16</height>
+            </rect>
+           </property>
+           <property name="text">
+            <string>Select Your Account No</string>
+           </property>
+          </widget>
+          <widget class="QLabel" name="label_22">
+           <property name="geometry">
+            <rect>
+             <x>50</x>
+             <y>60</y>
+             <width>131</width>
+             <height>16</height>
+            </rect>
+           </property>
+           <property name="text">
+            <string>Account Holder Name</string>
+           </property>
+          </widget>
+          <widget class="QLineEdit" name="MoneyWithdrawl_AccPassword">
+           <property name="geometry">
+            <rect>
+             <x>200</x>
+             <y>87</y>
+             <width>211</width>
+             <height>20</height>
+            </rect>
+           </property>
+           <property name="text">
+            <string/>
+           </property>
+           <property name="frame">
+            <bool>true</bool>
+           </property>
+           <property name="echoMode">
+            <enum>QLineEdit::Password</enum>
+           </property>
+           <property name="readOnly">
+            <bool>false</bool>
+           </property>
+          </widget>
+          <widget class="QPushButton" name="MoneyWithdrawl_WithdrawButton">
+           <property name="geometry">
+            <rect>
+             <x>50</x>
+             <y>180</y>
+             <width>360</width>
+             <height>23</height>
+            </rect>
+           </property>
+           <property name="text">
+            <string>   Withdraw Money</string>
+           </property>
+           <property name="icon">
+            <iconset>
+             <normaloff>T:/Icon/photoshop.ico</normaloff>T:/Icon/photoshop.ico</iconset>
+           </property>
+          </widget>
+          <widget class="QLabel" name="MoneyWithdrawl_ErrorLabel">
+           <property name="enabled">
+            <bool>false</bool>
+           </property>
+           <property name="geometry">
+            <rect>
+             <x>40</x>
+             <y>210</y>
+             <width>401</width>
+             <height>41</height>
+            </rect>
+           </property>
+           <property name="font">
+            <font>
+             <family>Courier New</family>
+             <pointsize>8</pointsize>
+            </font>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">color: rgb(255, 85, 0);</string>
+           </property>
+           <property name="text">
+            <string/>
+           </property>
+           <property name="alignment">
+            <set>Qt::AlignCenter</set>
+           </property>
+          </widget>
+          <widget class="QLabel" name="MoneyWithdrawl_CongoLabel">
+           <property name="geometry">
+            <rect>
+             <x>40</x>
+             <y>250</y>
+             <width>411</width>
+             <height>51</height>
+            </rect>
+           </property>
+           <property name="text">
+            <string/>
+           </property>
+          </widget>
+          <widget class="QLabel" name="label_34">
+           <property name="geometry">
+            <rect>
+             <x>50</x>
+             <y>153</y>
+             <width>131</width>
+             <height>16</height>
+            </rect>
+           </property>
+           <property name="text">
+            <string>Comment</string>
+           </property>
+          </widget>
+          <widget class="QLineEdit" name="MoneyWithdrawl_AccComment">
+           <property name="geometry">
+            <rect>
+             <x>200</x>
+             <y>150</y>
+             <width>211</width>
+             <height>20</height>
+            </rect>
+           </property>
+           <property name="text">
+            <string/>
+           </property>
+           <property name="frame">
+            <bool>true</bool>
+           </property>
+           <property name="echoMode">
+            <enum>QLineEdit::Normal</enum>
+           </property>
+           <property name="readOnly">
+            <bool>false</bool>
+           </property>
+          </widget>
+         </widget>
+        </widget>
+        <widget class="QWidget" name="tab_5">
+         <attribute name="title">
+          <string> Transfer Money </string>
+         </attribute>
+         <widget class="QGroupBox" name="groupBox_8">
+          <property name="geometry">
+           <rect>
+            <x>20</x>
+            <y>11</y>
+            <width>480</width>
+            <height>341</height>
+           </rect>
+          </property>
+          <property name="title">
+           <string> Withdrawl Money </string>
+          </property>
+          <widget class="QLabel" name="MoneyTransfer_CongoLabel">
+           <property name="geometry">
+            <rect>
+             <x>40</x>
+             <y>287</y>
+             <width>431</width>
+             <height>51</height>
+            </rect>
+           </property>
+           <property name="text">
+            <string/>
+           </property>
+          </widget>
+          <widget class="QLabel" name="label_28">
+           <property name="geometry">
+            <rect>
+             <x>60</x>
+             <y>50</y>
+             <width>131</width>
+             <height>16</height>
+            </rect>
+           </property>
+           <property name="text">
+            <string>Account Holder Name</string>
+           </property>
+          </widget>
+          <widget class="QPushButton" name="MoneyTransfer_TransferMoney_PushButton">
+           <property name="geometry">
+            <rect>
+             <x>60</x>
+             <y>227</y>
+             <width>360</width>
+             <height>23</height>
+            </rect>
+           </property>
+           <property name="text">
+            <string>  Transfer Money</string>
+           </property>
+           <property name="icon">
+            <iconset>
+             <normaloff>T:/Icon/NoteBook_Plain.png</normaloff>T:/Icon/NoteBook_Plain.png</iconset>
+           </property>
+          </widget>
+          <widget class="QLineEdit" name="MoneyTransfer_AccName_Src">
+           <property name="geometry">
+            <rect>
+             <x>210</x>
+             <y>47</y>
+             <width>211</width>
+             <height>20</height>
+            </rect>
+           </property>
+           <property name="frame">
+            <bool>true</bool>
+           </property>
+           <property name="readOnly">
+            <bool>true</bool>
+           </property>
+          </widget>
+          <widget class="QLabel" name="label_27">
+           <property name="geometry">
+            <rect>
+             <x>60</x>
+             <y>23</y>
+             <width>131</width>
+             <height>16</height>
+            </rect>
+           </property>
+           <property name="text">
+            <string>Select Your Account No</string>
+           </property>
+          </widget>
+          <widget class="QLabel" name="label_25">
+           <property name="geometry">
+            <rect>
+             <x>60</x>
+             <y>137</y>
+             <width>131</width>
+             <height>16</height>
+            </rect>
+           </property>
+           <property name="text">
+            <string>Enter Your Password</string>
+           </property>
+          </widget>
+          <widget class="QLineEdit" name="MoneyTransfer_AccName_Dest">
+           <property name="geometry">
+            <rect>
+             <x>210</x>
+             <y>103</y>
+             <width>211</width>
+             <height>20</height>
+            </rect>
+           </property>
+           <property name="frame">
+            <bool>true</bool>
+           </property>
+           <property name="readOnly">
+            <bool>true</bool>
+           </property>
+          </widget>
+          <widget class="QLineEdit" name="MoneyTransfer_Password">
+           <property name="geometry">
+            <rect>
+             <x>210</x>
+             <y>134</y>
+             <width>211</width>
+             <height>20</height>
+            </rect>
+           </property>
+           <property name="text">
+            <string/>
+           </property>
+           <property name="frame">
+            <bool>true</bool>
+           </property>
+           <property name="echoMode">
+            <enum>QLineEdit::Password</enum>
+           </property>
+           <property name="readOnly">
+            <bool>false</bool>
+           </property>
+          </widget>
+          <widget class="QLineEdit" name="MoneyTransfer_Amount">
+           <property name="geometry">
+            <rect>
+             <x>210</x>
+             <y>164</y>
+             <width>211</width>
+             <height>20</height>
+            </rect>
+           </property>
+           <property name="text">
+            <string/>
+           </property>
+           <property name="frame">
+            <bool>true</bool>
+           </property>
+           <property name="echoMode">
+            <enum>QLineEdit::Normal</enum>
+           </property>
+           <property name="readOnly">
+            <bool>false</bool>
+           </property>
+          </widget>
+          <widget class="QComboBox" name="MoneyTransfer_AccNum_Dest">
+           <property name="geometry">
+            <rect>
+             <x>210</x>
+             <y>70</y>
+             <width>211</width>
+             <height>22</height>
+            </rect>
+           </property>
+          </widget>
+          <widget class="QLineEdit" name="MoneyTransfer_Comment">
+           <property name="geometry">
+            <rect>
+             <x>210</x>
+             <y>195</y>
+             <width>211</width>
+             <height>20</height>
+            </rect>
+           </property>
+           <property name="text">
+            <string/>
+           </property>
+           <property name="frame">
+            <bool>true</bool>
+           </property>
+           <property name="echoMode">
+            <enum>QLineEdit::Normal</enum>
+           </property>
+           <property name="readOnly">
+            <bool>false</bool>
+           </property>
+          </widget>
+          <widget class="QLabel" name="label_32">
+           <property name="geometry">
+            <rect>
+             <x>60</x>
+             <y>106</y>
+             <width>131</width>
+             <height>16</height>
+            </rect>
+           </property>
+           <property name="text">
+            <string>Account Holder Name</string>
+           </property>
+          </widget>
+          <widget class="QComboBox" name="MoneyTransfer_AccNum_Src">
+           <property name="geometry">
+            <rect>
+             <x>210</x>
+             <y>17</y>
+             <width>211</width>
+             <height>22</height>
+            </rect>
+           </property>
+          </widget>
+          <widget class="QLabel" name="MoneyTransfer_ErrorLabel">
+           <property name="enabled">
+            <bool>false</bool>
+           </property>
+           <property name="geometry">
+            <rect>
+             <x>40</x>
+             <y>257</y>
+             <width>421</width>
+             <height>41</height>
+            </rect>
+           </property>
+           <property name="font">
+            <font>
+             <family>Courier New</family>
+             <pointsize>8</pointsize>
+            </font>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">color: rgb(255, 85, 0);</string>
+           </property>
+           <property name="text">
+            <string/>
+           </property>
+           <property name="alignment">
+            <set>Qt::AlignCenter</set>
+           </property>
+          </widget>
+          <widget class="QLabel" name="label_26">
+           <property name="geometry">
+            <rect>
+             <x>60</x>
+             <y>167</y>
+             <width>141</width>
+             <height>16</height>
+            </rect>
+           </property>
+           <property name="text">
+            <string>Enter Amount (In Rupees)</string>
+           </property>
+          </widget>
+          <widget class="QLabel" name="label_31">
+           <property name="geometry">
+            <rect>
+             <x>60</x>
+             <y>76</y>
+             <width>131</width>
+             <height>16</height>
+            </rect>
+           </property>
+           <property name="text">
+            <string>Transfer to Account No</string>
+           </property>
+          </widget>
+          <widget class="QLabel" name="label_33">
+           <property name="geometry">
+            <rect>
+             <x>60</x>
+             <y>200</y>
+             <width>131</width>
+             <height>16</height>
+            </rect>
+           </property>
+           <property name="text">
+            <string>Comment</string>
+           </property>
+          </widget>
+         </widget>
+        </widget>
+       </widget>
+      </widget>
+      <widget class="QWidget" name="tab">
+       <attribute name="title">
+        <string>Check Account Information</string>
+       </attribute>
+       <layout class="QGridLayout" name="gridLayout_3">
+        <item row="0" column="0">
+         <widget class="QTabWidget" name="tabWidget_3">
+          <property name="tabPosition">
+           <enum>QTabWidget::North</enum>
+          </property>
+          <property name="tabShape">
+           <enum>QTabWidget::Triangular</enum>
+          </property>
+          <property name="currentIndex">
+           <number>1</number>
+          </property>
+          <property name="elideMode">
+           <enum>Qt::ElideNone</enum>
+          </property>
+          <widget class="QWidget" name="tab_6">
+           <attribute name="title">
+            <string>Check Balance</string>
+           </attribute>
+           <widget class="QLineEdit" name="CheckAccBalance_AccName">
+            <property name="geometry">
+             <rect>
+              <x>180</x>
+              <y>77</y>
+              <width>211</width>
+              <height>20</height>
+             </rect>
+            </property>
+            <property name="frame">
+             <bool>true</bool>
+            </property>
+            <property name="readOnly">
+             <bool>true</bool>
+            </property>
+           </widget>
+           <widget class="QComboBox" name="CheckAccBalance_AccNum">
+            <property name="geometry">
+             <rect>
+              <x>180</x>
+              <y>47</y>
+              <width>211</width>
+              <height>22</height>
+             </rect>
+            </property>
+           </widget>
+           <widget class="QLabel" name="label_36">
+            <property name="geometry">
+             <rect>
+              <x>40</x>
+              <y>53</y>
+              <width>131</width>
+              <height>16</height>
+             </rect>
+            </property>
+            <property name="text">
+             <string>Select Your Account No</string>
+            </property>
+           </widget>
+           <widget class="QLabel" name="label_37">
+            <property name="geometry">
+             <rect>
+              <x>40</x>
+              <y>80</y>
+              <width>131</width>
+              <height>16</height>
+             </rect>
+            </property>
+            <property name="text">
+             <string>Account Holder Name</string>
+            </property>
+           </widget>
+           <widget class="QLabel" name="label_38">
+            <property name="geometry">
+             <rect>
+              <x>40</x>
+              <y>113</y>
+              <width>131</width>
+              <height>16</height>
+             </rect>
+            </property>
+            <property name="text">
+             <string>Enter Your Password</string>
+            </property>
+           </widget>
+           <widget class="QLineEdit" name="CheckAccBalance_AccPassword">
+            <property name="geometry">
+             <rect>
+              <x>180</x>
+              <y>110</y>
+              <width>211</width>
+              <height>20</height>
+             </rect>
+            </property>
+            <property name="text">
+             <string/>
+            </property>
+            <property name="frame">
+             <bool>true</bool>
+            </property>
+            <property name="echoMode">
+             <enum>QLineEdit::Password</enum>
+            </property>
+            <property name="readOnly">
+             <bool>false</bool>
+            </property>
+           </widget>
+           <widget class="QPushButton" name="CheckAccBalance_PushButton">
+            <property name="geometry">
+             <rect>
+              <x>180</x>
+              <y>150</y>
+              <width>121</width>
+              <height>23</height>
+             </rect>
+            </property>
+            <property name="text">
+             <string>Check Balance</string>
+            </property>
+           </widget>
+           <widget class="QPushButton" name="CheckAccBalance_Clear_PushButton">
+            <property name="geometry">
+             <rect>
+              <x>310</x>
+              <y>150</y>
+              <width>81</width>
+              <height>23</height>
+             </rect>
+            </property>
+            <property name="text">
+             <string>Clear Data</string>
+            </property>
+           </widget>
+           <widget class="QGroupBox" name="groupBox_5">
+            <property name="geometry">
+             <rect>
+              <x>30</x>
+              <y>260</y>
+              <width>381</width>
+              <height>141</height>
+             </rect>
+            </property>
+            <property name="title">
+             <string> Account Information</string>
+            </property>
+            <widget class="QLabel" name="label_8">
+             <property name="geometry">
+              <rect>
+               <x>40</x>
+               <y>30</y>
+               <width>121</width>
+               <height>16</height>
+              </rect>
+             </property>
+             <property name="text">
+              <string>Account Number</string>
+             </property>
+            </widget>
+            <widget class="QLabel" name="label_9">
+             <property name="geometry">
+              <rect>
+               <x>40</x>
+               <y>60</y>
+               <width>121</width>
+               <height>16</height>
+              </rect>
+             </property>
+             <property name="text">
+              <string>Customer ID</string>
+             </property>
+            </widget>
+            <widget class="QLabel" name="label_10">
+             <property name="geometry">
+              <rect>
+               <x>40</x>
+               <y>90</y>
+               <width>121</width>
+               <height>16</height>
+              </rect>
+             </property>
+             <property name="text">
+              <string>Current Balance</string>
+             </property>
+            </widget>
+            <widget class="QLineEdit" name="CheckAccBalance_ShowAccNum">
+             <property name="geometry">
+              <rect>
+               <x>150</x>
+               <y>26</y>
+               <width>211</width>
+               <height>20</height>
+              </rect>
+             </property>
+             <property name="frame">
+              <bool>true</bool>
+             </property>
+             <property name="readOnly">
+              <bool>true</bool>
+             </property>
+             <property name="placeholderText">
+              <string>Your Account Number</string>
+             </property>
+            </widget>
+            <widget class="QLineEdit" name="CheckAccBalance_ShowCIDNum">
+             <property name="geometry">
+              <rect>
+               <x>150</x>
+               <y>57</y>
+               <width>211</width>
+               <height>20</height>
+              </rect>
+             </property>
+             <property name="frame">
+              <bool>true</bool>
+             </property>
+             <property name="readOnly">
+              <bool>true</bool>
+             </property>
+             <property name="placeholderText">
+              <string>Your Customer ID Number</string>
+             </property>
+            </widget>
+            <widget class="QLineEdit" name="CheckAccBalance_ShowAccBalance">
+             <property name="geometry">
+              <rect>
+               <x>150</x>
+               <y>87</y>
+               <width>211</width>
+               <height>20</height>
+              </rect>
+             </property>
+             <property name="frame">
+              <bool>true</bool>
+             </property>
+             <property name="readOnly">
+              <bool>true</bool>
+             </property>
+             <property name="placeholderText">
+              <string>Your Current Balance</string>
+             </property>
+            </widget>
+           </widget>
+           <widget class="QLabel" name="CheckAccInfo_ErrorLabel">
+            <property name="enabled">
+             <bool>false</bool>
+            </property>
+            <property name="geometry">
+             <rect>
+              <x>40</x>
+              <y>200</y>
+              <width>501</width>
+              <height>41</height>
+             </rect>
+            </property>
+            <property name="font">
+             <font>
+              <family>Courier New</family>
+              <pointsize>8</pointsize>
+             </font>
+            </property>
+            <property name="text">
+             <string/>
+            </property>
+            <property name="alignment">
+             <set>Qt::AlignCenter</set>
+            </property>
+           </widget>
+          </widget>
+          <widget class="QWidget" name="tab_7">
+           <attribute name="title">
+            <string>Bank Statments</string>
+           </attribute>
+           <widget class="QTableWidget" name="CheckStatements_TableWidget">
+            <property name="enabled">
+             <bool>true</bool>
+            </property>
+            <property name="geometry">
+             <rect>
+              <x>10</x>
+              <y>80</y>
+              <width>1121</width>
+              <height>341</height>
+             </rect>
+            </property>
+            <property name="font">
+             <font>
+              <family>Calibri</family>
+              <pointsize>8</pointsize>
+             </font>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">alternate-background-color: rgb(40, 40, 40);</string>
+            </property>
+            <property name="frameShape">
+             <enum>QFrame::StyledPanel</enum>
+            </property>
+            <property name="alternatingRowColors">
+             <bool>true</bool>
+            </property>
+            <property name="textElideMode">
+             <enum>Qt::ElideMiddle</enum>
+            </property>
+            <row>
+             <property name="text">
+              <string>1</string>
+             </property>
+            </row>
+            <column>
+             <property name="text">
+              <string>Balance</string>
+             </property>
+             <property name="textAlignment">
+              <set>AlignHCenter|AlignVCenter|AlignCenter</set>
+             </property>
+            </column>
+            <column>
+             <property name="text">
+              <string>Amount</string>
+             </property>
+             <property name="textAlignment">
+              <set>AlignHCenter|AlignVCenter|AlignCenter</set>
+             </property>
+            </column>
+            <column>
+             <property name="text">
+              <string>Type</string>
+             </property>
+             <property name="textAlignment">
+              <set>AlignHCenter|AlignVCenter|AlignCenter</set>
+             </property>
+            </column>
+            <column>
+             <property name="text">
+              <string>Date</string>
+             </property>
+             <property name="textAlignment">
+              <set>AlignHCenter|AlignVCenter|AlignCenter</set>
+             </property>
+            </column>
+            <column>
+             <property name="text">
+              <string>Comment</string>
+             </property>
+             <property name="textAlignment">
+              <set>AlignHCenter|AlignVCenter|AlignCenter</set>
+             </property>
+            </column>
+            <item row="0" column="0">
+             <property name="text">
+              <string/>
+             </property>
+             <property name="textAlignment">
+              <set>AlignHCenter|AlignVCenter|AlignCenter</set>
+             </property>
+            </item>
+            <item row="0" column="1">
+             <property name="text">
+              <string/>
+             </property>
+             <property name="textAlignment">
+              <set>AlignHCenter|AlignVCenter|AlignCenter</set>
+             </property>
+            </item>
+            <item row="0" column="2">
+             <property name="text">
+              <string/>
+             </property>
+             <property name="textAlignment">
+              <set>AlignHCenter|AlignVCenter|AlignCenter</set>
+             </property>
+            </item>
+            <item row="0" column="3">
+             <property name="text">
+              <string/>
+             </property>
+             <property name="textAlignment">
+              <set>AlignHCenter|AlignVCenter|AlignCenter</set>
+             </property>
+            </item>
+            <item row="0" column="4">
+             <property name="text">
+              <string/>
+             </property>
+             <property name="textAlignment">
+              <set>AlignHCenter|AlignVCenter|AlignCenter</set>
+             </property>
+            </item>
+           </widget>
+           <widget class="QLabel" name="CheckStatements_ErrorLabel">
+            <property name="enabled">
+             <bool>true</bool>
+            </property>
+            <property name="geometry">
+             <rect>
+              <x>50</x>
+              <y>33</y>
+              <width>501</width>
+              <height>41</height>
+             </rect>
+            </property>
+            <property name="font">
+             <font>
+              <family>Calibri</family>
+              <pointsize>10</pointsize>
+             </font>
+            </property>
+            <property name="cursor">
+             <cursorShape>ArrowCursor</cursorShape>
+            </property>
+            <property name="layoutDirection">
+             <enum>Qt::LeftToRight</enum>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">color: rgb(255, 85, 0);</string>
+            </property>
+            <property name="text">
+             <string/>
+            </property>
+            <property name="alignment">
+             <set>Qt::AlignCenter</set>
+            </property>
+           </widget>
+           <widget class="QWidget" name="layoutWidget">
+            <property name="geometry">
+             <rect>
+              <x>15</x>
+              <y>0</y>
+              <width>581</width>
+              <height>45</height>
+             </rect>
+            </property>
+            <layout class="QHBoxLayout" name="horizontalLayout_3">
+             <item>
+              <layout class="QHBoxLayout" name="horizontalLayout">
+               <item>
+                <widget class="QLabel" name="label_39">
+                 <property name="minimumSize">
+                  <size>
+                   <width>70</width>
+                   <height>0</height>
+                  </size>
+                 </property>
+                 <property name="text">
+                  <string>Account No</string>
+                 </property>
+                </widget>
+               </item>
+               <item>
+                <widget class="QComboBox" name="CheckStatements_AccNum">
+                 <property name="minimumSize">
+                  <size>
+                   <width>200</width>
+                   <height>0</height>
+                  </size>
+                 </property>
+                </widget>
+               </item>
+              </layout>
+             </item>
+             <item>
+              <layout class="QHBoxLayout" name="horizontalLayout_2">
+               <item>
+                <widget class="QLabel" name="label_40">
+                 <property name="minimumSize">
+                  <size>
+                   <width>70</width>
+                   <height>0</height>
+                  </size>
+                 </property>
+                 <property name="text">
+                  <string>Password</string>
+                 </property>
+                </widget>
+               </item>
+               <item>
+                <widget class="QLineEdit" name="CheckStatements_AccPassword">
+                 <property name="text">
+                  <string/>
+                 </property>
+                 <property name="frame">
+                  <bool>true</bool>
+                 </property>
+                 <property name="echoMode">
+                  <enum>QLineEdit::Password</enum>
+                 </property>
+                 <property name="readOnly">
+                  <bool>false</bool>
+                 </property>
+                </widget>
+               </item>
+               <item>
+                <widget class="QPushButton" name="CheckStatements_GoPushButton">
+                 <property name="maximumSize">
+                  <size>
+                   <width>40</width>
+                   <height>16777215</height>
+                  </size>
+                 </property>
+                 <property name="icon">
+                  <iconset>
+                   <normaloff>icons/WMP11.ico</normaloff>icons/WMP11.ico</iconset>
+                 </property>
+                </widget>
+               </item>
+              </layout>
+             </item>
+            </layout>
+           </widget>
+          </widget>
+         </widget>
+        </item>
+       </layout>
+      </widget>
+      <widget class="QWidget" name="tab_8">
+       <attribute name="title">
+        <string>Utility</string>
+       </attribute>
+       <widget class="QTabWidget" name="tabWidget_4">
+        <property name="geometry">
+         <rect>
+          <x>50</x>
+          <y>40</y>
+          <width>541</width>
+          <height>381</height>
+         </rect>
+        </property>
+        <property name="tabShape">
+         <enum>QTabWidget::Triangular</enum>
+        </property>
+        <property name="currentIndex">
+         <number>0</number>
+        </property>
+        <widget class="QWidget" name="ChangePassword">
+         <attribute name="title">
+          <string>Change Password</string>
+         </attribute>
+         <widget class="QGroupBox" name="groupBox_6">
+          <property name="geometry">
+           <rect>
+            <x>20</x>
+            <y>20</y>
+            <width>481</width>
+            <height>301</height>
+           </rect>
+          </property>
+          <property name="title">
+           <string> Change Account Password</string>
+          </property>
+          <widget class="QLabel" name="label_17">
+           <property name="geometry">
+            <rect>
+             <x>50</x>
+             <y>90</y>
+             <width>131</width>
+             <height>16</height>
+            </rect>
+           </property>
+           <property name="text">
+            <string>Enter Old Password</string>
+           </property>
+          </widget>
+          <widget class="QLineEdit" name="MoneyDeposit_AccName_2">
+           <property name="geometry">
+            <rect>
+             <x>190</x>
+             <y>57</y>
+             <width>211</width>
+             <height>20</height>
+            </rect>
+           </property>
+           <property name="frame">
+            <bool>true</bool>
+           </property>
+           <property name="readOnly">
+            <bool>true</bool>
+           </property>
+          </widget>
+          <widget class="QComboBox" name="MoneyDeposit_AccNum_2">
+           <property name="geometry">
+            <rect>
+             <x>190</x>
+             <y>27</y>
+             <width>211</width>
+             <height>22</height>
+            </rect>
+           </property>
+          </widget>
+          <widget class="QLabel" name="label_23">
+           <property name="geometry">
+            <rect>
+             <x>50</x>
+             <y>33</y>
+             <width>131</width>
+             <height>16</height>
+            </rect>
+           </property>
+           <property name="text">
+            <string>Select Your Account No</string>
+           </property>
+          </widget>
+          <widget class="QLabel" name="label_24">
+           <property name="geometry">
+            <rect>
+             <x>50</x>
+             <y>60</y>
+             <width>131</width>
+             <height>16</height>
+            </rect>
+           </property>
+           <property name="text">
+            <string>Account Holder Name</string>
+           </property>
+          </widget>
+          <widget class="QLineEdit" name="MoneyDeposit_AccPassword_2">
+           <property name="geometry">
+            <rect>
+             <x>190</x>
+             <y>87</y>
+             <width>211</width>
+             <height>20</height>
+            </rect>
+           </property>
+           <property name="text">
+            <string/>
+           </property>
+           <property name="frame">
+            <bool>true</bool>
+           </property>
+           <property name="echoMode">
+            <enum>QLineEdit::Password</enum>
+           </property>
+           <property name="readOnly">
+            <bool>false</bool>
+           </property>
+          </widget>
+          <widget class="QPushButton" name="MoneyDeposit_DepositeButton_2">
+           <property name="geometry">
+            <rect>
+             <x>190</x>
+             <y>190</y>
+             <width>211</width>
+             <height>23</height>
+            </rect>
+           </property>
+           <property name="text">
+            <string>   Change Password</string>
+           </property>
+           <property name="icon">
+            <iconset>
+             <normaloff>T:/Icon/Icons Mega Pack 1/Nod 32.ico</normaloff>T:/Icon/Icons Mega Pack 1/Nod 32.ico</iconset>
+           </property>
+          </widget>
+          <widget class="QLabel" name="MoneyDeposit_ErrorLabel_2">
+           <property name="enabled">
+            <bool>false</bool>
+           </property>
+           <property name="geometry">
+            <rect>
+             <x>40</x>
+             <y>230</y>
+             <width>421</width>
+             <height>41</height>
+            </rect>
+           </property>
+           <property name="font">
+            <font>
+             <family>Courier New</family>
+             <pointsize>8</pointsize>
+            </font>
+           </property>
+           <property name="text">
+            <string/>
+           </property>
+           <property name="alignment">
+            <set>Qt::AlignCenter</set>
+           </property>
+          </widget>
+          <widget class="QLabel" name="MoneyDeposit_CongoLabel_2">
+           <property name="geometry">
+            <rect>
+             <x>40</x>
+             <y>250</y>
+             <width>411</width>
+             <height>51</height>
+            </rect>
+           </property>
+           <property name="text">
+            <string/>
+           </property>
+          </widget>
+          <widget class="QLineEdit" name="MoneyDeposit_AccPassword_3">
+           <property name="geometry">
+            <rect>
+             <x>190</x>
+             <y>120</y>
+             <width>211</width>
+             <height>20</height>
+            </rect>
+           </property>
+           <property name="text">
+            <string/>
+           </property>
+           <property name="frame">
+            <bool>true</bool>
+           </property>
+           <property name="echoMode">
+            <enum>QLineEdit::Password</enum>
+           </property>
+           <property name="readOnly">
+            <bool>false</bool>
+           </property>
+          </widget>
+          <widget class="QLabel" name="label_18">
+           <property name="geometry">
+            <rect>
+             <x>50</x>
+             <y>123</y>
+             <width>131</width>
+             <height>16</height>
+            </rect>
+           </property>
+           <property name="text">
+            <string>Enter New Password</string>
+           </property>
+          </widget>
+          <widget class="QLineEdit" name="MoneyDeposit_AccPassword_4">
+           <property name="geometry">
+            <rect>
+             <x>190</x>
+             <y>150</y>
+             <width>211</width>
+             <height>20</height>
+            </rect>
+           </property>
+           <property name="text">
+            <string/>
+           </property>
+           <property name="frame">
+            <bool>true</bool>
+           </property>
+           <property name="echoMode">
+            <enum>QLineEdit::Password</enum>
+           </property>
+           <property name="readOnly">
+            <bool>false</bool>
+           </property>
+          </widget>
+          <widget class="QLabel" name="label_41">
+           <property name="geometry">
+            <rect>
+             <x>50</x>
+             <y>153</y>
+             <width>131</width>
+             <height>16</height>
+            </rect>
+           </property>
+           <property name="text">
+            <string>Re Enter New Password</string>
+           </property>
+          </widget>
+         </widget>
+        </widget>
+        <widget class="QWidget" name="tab_10">
+         <attribute name="title">
+          <string> Delete My Account</string>
+         </attribute>
+         <widget class="QGroupBox" name="groupBox_7">
+          <property name="geometry">
+           <rect>
+            <x>20</x>
+            <y>20</y>
+            <width>481</width>
+            <height>231</height>
+           </rect>
+          </property>
+          <property name="title">
+           <string> Delete My Account</string>
+          </property>
+          <widget class="QLabel" name="label_29">
+           <property name="geometry">
+            <rect>
+             <x>50</x>
+             <y>90</y>
+             <width>131</width>
+             <height>16</height>
+            </rect>
+           </property>
+           <property name="text">
+            <string>Enter Your Password</string>
+           </property>
+          </widget>
+          <widget class="QLineEdit" name="MoneyWithdrawl_AccName_2">
+           <property name="geometry">
+            <rect>
+             <x>190</x>
+             <y>57</y>
+             <width>211</width>
+             <height>20</height>
+            </rect>
+           </property>
+           <property name="frame">
+            <bool>true</bool>
+           </property>
+           <property name="readOnly">
+            <bool>true</bool>
+           </property>
+          </widget>
+          <widget class="QComboBox" name="MoneyWithdrawl_AccNum_2">
+           <property name="geometry">
+            <rect>
+             <x>190</x>
+             <y>27</y>
+             <width>211</width>
+             <height>22</height>
+            </rect>
+           </property>
+          </widget>
+          <widget class="QLabel" name="label_42">
+           <property name="geometry">
+            <rect>
+             <x>50</x>
+             <y>33</y>
+             <width>131</width>
+             <height>16</height>
+            </rect>
+           </property>
+           <property name="text">
+            <string>Select Your Account No</string>
+           </property>
+          </widget>
+          <widget class="QLabel" name="label_43">
+           <property name="geometry">
+            <rect>
+             <x>50</x>
+             <y>60</y>
+             <width>131</width>
+             <height>16</height>
+            </rect>
+           </property>
+           <property name="text">
+            <string>Account Holder Name</string>
+           </property>
+          </widget>
+          <widget class="QLineEdit" name="MoneyWithdrawl_AccPassword_2">
+           <property name="geometry">
+            <rect>
+             <x>190</x>
+             <y>87</y>
+             <width>211</width>
+             <height>20</height>
+            </rect>
+           </property>
+           <property name="text">
+            <string/>
+           </property>
+           <property name="frame">
+            <bool>true</bool>
+           </property>
+           <property name="echoMode">
+            <enum>QLineEdit::Password</enum>
+           </property>
+           <property name="readOnly">
+            <bool>false</bool>
+           </property>
+          </widget>
+          <widget class="QPushButton" name="MoneyWithdrawl_WithdrawButton_2">
+           <property name="geometry">
+            <rect>
+             <x>190</x>
+             <y>140</y>
+             <width>211</width>
+             <height>23</height>
+            </rect>
+           </property>
+           <property name="text">
+            <string>   Delete My Account</string>
+           </property>
+           <property name="icon">
+            <iconset>
+             <normaloff>T:/Icon/Application Icons Set 2/Nero Startsmart .ico</normaloff>T:/Icon/Application Icons Set 2/Nero Startsmart .ico</iconset>
+           </property>
+          </widget>
+          <widget class="QLabel" name="MoneyWithdrawl_ErrorLabel_2">
+           <property name="enabled">
+            <bool>false</bool>
+           </property>
+           <property name="geometry">
+            <rect>
+             <x>40</x>
+             <y>170</y>
+             <width>401</width>
+             <height>41</height>
+            </rect>
+           </property>
+           <property name="font">
+            <font>
+             <family>Courier New</family>
+             <pointsize>8</pointsize>
+            </font>
+           </property>
+           <property name="text">
+            <string/>
+           </property>
+           <property name="alignment">
+            <set>Qt::AlignCenter</set>
+           </property>
+          </widget>
+          <widget class="QLabel" name="MoneyWithdrawl_CongoLabel_2">
+           <property name="geometry">
+            <rect>
+             <x>40</x>
+             <y>250</y>
+             <width>411</width>
+             <height>51</height>
+            </rect>
+           </property>
+           <property name="text">
+            <string/>
+           </property>
+          </widget>
+         </widget>
+        </widget>
+       </widget>
+      </widget>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>1368</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="menuMenu">
+    <property name="title">
+     <string>Menu</string>
+    </property>
+    <widget class="QMenu" name="menuCreate_New_Account">
+     <property name="title">
+      <string>New Account</string>
+     </property>
+     <addaction name="actionMenu_CreateNewAccount"/>
+    </widget>
+    <widget class="QMenu" name="menuMoney_Transections">
+     <property name="title">
+      <string>Money Transections</string>
+     </property>
+     <addaction name="actionDeposit_Money"/>
+     <addaction name="actionWithdrawl_Money"/>
+     <addaction name="separator"/>
+     <addaction name="actionTransfer_Money_to_another_Account"/>
+    </widget>
+    <addaction name="menuCreate_New_Account"/>
+    <addaction name="menuMoney_Transections"/>
+    <addaction name="separator"/>
+    <addaction name="actionAbout_Company"/>
+    <addaction name="actionExit"/>
+   </widget>
+   <addaction name="menuMenu"/>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+  <action name="actionAbout_Company">
+   <property name="text">
+    <string>About Company</string>
+   </property>
+  </action>
+  <action name="actionExit">
+   <property name="text">
+    <string>Exit</string>
+   </property>
+  </action>
+  <action name="actionMenu_CreateNewAccount">
+   <property name="text">
+    <string>Create New Account</string>
+   </property>
+  </action>
+  <action name="actionDeposit_Money">
+   <property name="text">
+    <string>Deposit Money</string>
+   </property>
+  </action>
+  <action name="actionWithdrawl_Money">
+   <property name="text">
+    <string>Withdrawl Money</string>
+   </property>
+  </action>
+  <action name="actionTransfer_Money_to_another_Account">
+   <property name="text">
+    <string>Transfer Money to another Account</string>
+   </property>
+  </action>
+ </widget>
+ <tabstops>
+  <tabstop>Bank_NewAcc_Name</tabstop>
+  <tabstop>Bank_NewAcc_Balance</tabstop>
+  <tabstop>Bank_NewAcc_Password</tabstop>
+  <tabstop>Bank_NewAcc_RePassword</tabstop>
+  <tabstop>Bank_NewAcc_Email</tabstop>
+  <tabstop>Bank_NewAcc_DOB_date</tabstop>
+  <tabstop>Bank_NewAcc_DOB_month</tabstop>
+  <tabstop>Bank_NewAcc_DOB_year</tabstop>
+  <tabstop>Bank_NewAcc_Sex</tabstop>
+  <tabstop>Bank_NewAcc_SqQ_A</tabstop>
+  <tabstop>Bank_NewAcc_SqA_A</tabstop>
+  <tabstop>Bank_NewAcc_SqQ_B</tabstop>
+  <tabstop>Bank_NewAcc_SqA_B</tabstop>
+  <tabstop>Bank_NewAcc_SubmitButton</tabstop>
+  <tabstop>MoneyWithdrawl_AccNum</tabstop>
+  <tabstop>MoneyWithdrawl_AccName</tabstop>
+  <tabstop>MoneyWithdrawl_AccPassword</tabstop>
+  <tabstop>MoneyWithdrawl_AccAmount</tabstop>
+  <tabstop>MoneyWithdrawl_AccComment</tabstop>
+  <tabstop>MoneyWithdrawl_WithdrawButton</tabstop>
+  <tabstop>MoneyTransfer_AccNum_Src</tabstop>
+  <tabstop>MoneyTransfer_AccName_Src</tabstop>
+  <tabstop>MoneyTransfer_AccNum_Dest</tabstop>
+  <tabstop>MoneyTransfer_AccName_Dest</tabstop>
+  <tabstop>MoneyTransfer_Password</tabstop>
+  <tabstop>MoneyTransfer_Amount</tabstop>
+  <tabstop>MoneyTransfer_Comment</tabstop>
+  <tabstop>MoneyTransfer_TransferMoney_PushButton</tabstop>
+  <tabstop>tabWidget_2</tabstop>
+  <tabstop>tabWidget</tabstop>
+  <tabstop>tabWidget_3</tabstop>
+  <tabstop>CheckAccBalance_AccName</tabstop>
+  <tabstop>CheckAccBalance_AccNum</tabstop>
+  <tabstop>CheckAccBalance_AccPassword</tabstop>
+  <tabstop>CheckAccBalance_PushButton</tabstop>
+  <tabstop>CheckAccBalance_Clear_PushButton</tabstop>
+  <tabstop>Bank_NewAcc_CusAccName</tabstop>
+  <tabstop>Bank_NewAcc_CusAccBalance</tabstop>
+  <tabstop>Bank_NewAcc_CusAccEmail</tabstop>
+  <tabstop>Bank_NewAcc_Done</tabstop>
+  <tabstop>MoneyDeposit_AccComment</tabstop>
+  <tabstop>MoneyDeposit_AccPassword</tabstop>
+  <tabstop>MoneyDeposit_AccName</tabstop>
+  <tabstop>MoneyDeposit_AccAmount</tabstop>
+  <tabstop>Bank_NewAcc_HelpSecQ</tabstop>
+  <tabstop>MoneyDeposit_DepositeButton</tabstop>
+  <tabstop>Bank_NewAcc_CusAccNum</tabstop>
+  <tabstop>Bank_NewAcc_CusID</tabstop>
+  <tabstop>MoneyDeposit_AccNum</tabstop>
+  <tabstop>CheckAccBalance_ShowAccNum</tabstop>
+  <tabstop>CheckAccBalance_ShowCIDNum</tabstop>
+  <tabstop>CheckAccBalance_ShowAccBalance</tabstop>
+  <tabstop>CheckStatements_TableWidget</tabstop>
+  <tabstop>CheckStatements_AccNum</tabstop>
+  <tabstop>CheckStatements_AccPassword</tabstop>
+  <tabstop>CheckStatements_GoPushButton</tabstop>
+  <tabstop>tabWidget_4</tabstop>
+  <tabstop>MoneyDeposit_AccName_2</tabstop>
+  <tabstop>MoneyDeposit_AccNum_2</tabstop>
+  <tabstop>MoneyDeposit_AccPassword_2</tabstop>
+  <tabstop>MoneyDeposit_DepositeButton_2</tabstop>
+  <tabstop>MoneyDeposit_AccPassword_3</tabstop>
+  <tabstop>MoneyDeposit_AccPassword_4</tabstop>
+  <tabstop>MoneyWithdrawl_AccName_2</tabstop>
+  <tabstop>MoneyWithdrawl_AccNum_2</tabstop>
+  <tabstop>MoneyWithdrawl_AccPassword_2</tabstop>
+  <tabstop>MoneyWithdrawl_WithdrawButton_2</tabstop>
+ </tabstops>
+ <resources/>
+ <connections/>
+</ui>
